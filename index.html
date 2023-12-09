@@ -43,7 +43,7 @@
         width="24"
         height="24"
         aria-label="mobile menu open icon">
-            <use href="./images/icons.svg#icon-burger"></use>
+            <use href="./images/icons.svg#icon-icon-menu"></use>
         </svg>
     </button>
     </div>
@@ -517,63 +517,61 @@
     </form>
 </div>
 </div> -->
-<div class="mobile-modal-menu-container">
-    <button class="close-moile-modal-window" type="button">
-        <svg
-        class="mobile-close-modal-window-icon"
-        width="24"
-        height="24"
-        aria-label="close window icon"
-        >
+<div class="mobile-modal-menu-wrapper">
+    <div class="mobile-open-window-container container">
+    <button class="close-mobile-modal-btn" type="button">
+        <svg class="mobile-close-modal-window-icon" width="8" height="8" aria-label="close window icon">
             <use href="./images/icons.svg#icon-close"></use>
         </svg>
     </button>
     <nav>
-        <ul class="">
-            <li class="">
-                <a class="" href="./index.html">Studio</a>
-            <li class="">
-                <a class="" href="">Portfolio</a>
+        <ul class="mobile-list-page-nav list">
+            <li class="mobile-page-nav">
+                <a class="mobile-page-nav-links links link-studio" href="./index.html">Studio</a>
+            <li class="mobile-page-nav">
+                <a class="mobile-page-nav-links links" href="">Portfolio</a>
             </li>
-            <li class="">
-                <a class="" href="">Contacts</a>
+            <li class="mobile-page-nav">
+                <a class="mobile-page-nav-links links" href="">Contacts</a>
             </li>
         </ul>
-        <address class="">
-            <ul class="">
-                <li class="">
-                    <a class="" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <div class="mobile-address-container">
+        <address class="mobile-header-address">
+            <ul class="mobile-header-address-list list">
+                <li class="mobile-address-info">
+                    <a class="mobile-address-links-mail links" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li class="">
-                    <a class="" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                <li class="mobile-address-info">
+                    <a class="mobile-address-links-tel links" href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
             </ul>
         </address>
+        </div>
         <div class="mobile-modal-smc-container">
-            <ul class="mobile-smc-modal-list">
+            <ul class="mobile-smc-modal-list list">
                 <li class="mobile-smc-links">
-                    <a href="" class="mobile-info-smc">
+                    <a href="" class="mobile-info-smc links">
                         <svg class="mobile-smc-icon" width="40" height="40">
                             <use href="./images/icons.svg#icon-instagram-2"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="mobile-smc-links">
-                    <a href="" class="mobile-info-smc">
+                    <a href="" class="mobile-info-smc links">
                         <svg class="mobile-smc-icon" width="40" height="40">
                             <use href="./images/icons.svg#icon-twitter-1"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="mobile-smc-links">
-                    <a href="" class="mobile-info-smc">
+                    <a href="" class="mobile-info-smc links">
                         <svg class="mobile-smc-icon" width="40" height="40">
                             <use href="./images/icons.svg#icon-facebook-1"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="mobile-smc-links">
-                    <a href="" class="mobile-info-smc">
+                    <a href="" class="mobile-info-smc links">
                         <svg class="mobile-smc-icon" width="40" height="40">
                             <use href="./images/icons.svg#icon-linkedin-1"></use>
                         </svg>
@@ -581,8 +579,10 @@
                 </li>
             </ul>
         </div>
-        
+    
     </nav>
+    </div>
+    
 
 </div>
 </body>
