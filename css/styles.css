@@ -109,7 +109,7 @@ img {
   stroke: rgba(0, 0, 0, 0.1);
 }
 .mobile-list-page-nav {
-  margin-bottom: 0 auto;
+  margin-bottom: auto;
 }
 .mobile-page-nav-links {
   color: #2e2f42;
@@ -138,6 +138,18 @@ img {
 .mobile-address-info:not(:last-child) {
   padding-bottom: 24px;
 }
+.mobile-address-links {
+  color: #4d5ae5;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.02em;
+}
+.mobile-mail {
+  color: #434455;
+}
+
 .mobile-smc-modal-list {
   display: flex;
   justify-content: space-between;
