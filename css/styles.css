@@ -108,6 +108,9 @@ img {
   line-height: 0;
   stroke: rgba(0, 0, 0, 0.1);
 }
+.mobile-list-page-nav {
+  margin-bottom: 0 auto;
+}
 .mobile-page-nav-links {
   color: #2e2f42;
   font-family: Roboto;
@@ -126,7 +129,31 @@ img {
 .mobile-page-nav:not(:last-child) {
   margin-bottom: 40px;
 }
-
+.mobile-address-container {
+  display: block;
+}
+.mobile-header-address-list {
+  margin-bottom: 48px;
+}
+.mobile-address-info:not(:last-child) {
+  padding-bottom: 24px;
+}
+.mobile-smc-modal-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.mobile-info-smc {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  fill: #fff;
+  justify-content: center;
+  align-items: center;
+}
 /*=========/Mobile Header Styles=========*/
 
 /*=========Tablet Header Styles=========*/
