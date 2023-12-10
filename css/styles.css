@@ -109,7 +109,7 @@ img {
   stroke: rgba(0, 0, 0, 0.1);
 }
 .mobile-list-page-nav {
-  margin-bottom: 156px;
+  margin: 0 auto;
 }
 .mobile-page-nav-links {
   color: #2e2f42;
