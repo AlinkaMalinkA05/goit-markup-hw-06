@@ -202,6 +202,42 @@ img {
 
 /*=========/Mobile Header Styles=========*/
 /*=========Mobile Order Section Styles=========*/
+.solutions-section {
+  background: var(--GREY, rgba(46, 47, 66, 0.7));
+  padding-bottom: 72px;
+}
+.main-title {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  padding-bottom: 72px;
+  padding-top: 72px;
+}
+.order-btn {
+  border-radius: 4px;
+  display: block;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+}
 /*=========/Mobile Order Section Styles=========*/
 
 @media screen and (min-width: 768px) {
@@ -219,7 +255,6 @@ img {
   }
   .link-studio::after {
     display: block;
-    position: absolute;
     left: 0;
     bottom: -1px;
     content: "";
@@ -228,6 +263,7 @@ img {
     height: 4px;
     border-radius: 2px;
     background-color: #404bbf;
+    position: absolute;
   }
   .contact-info {
     font-style: normal;
