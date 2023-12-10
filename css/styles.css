@@ -201,6 +201,9 @@ img {
 }
 
 /*=========/Mobile Header Styles=========*/
+/*=========Mobile Order Section Styles=========*/
+/*=========/Mobile Order Section Styles=========*/
+
 @media screen and (min-width: 768px) {
   .container {
     min-width: 768px;
@@ -214,69 +217,71 @@ img {
   .mobile-burger-button {
     display: none;
   }
-}
-.contact-info {
-  font-style: normal;
-}
-.menu {
-  background-color: #ffffff;
-  display: flex;
-  gap: 40px;
-  display: flex;
-  align-items: center;
-}
-.main-nav {
-  display: flex;
-  align-items: center;
-}
-.logotype-header {
-  margin-right: 117px;
-}
+  .link-studio::after {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    content: "";
+    margin-top: 20px;
+    width: 48px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+  }
+  .contact-info {
+    font-style: normal;
+  }
+  .menu {
+    background-color: #ffffff;
+    display: flex;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .main-nav {
+    display: flex;
+    align-items: center;
+  }
+  .logotype-header {
+    margin-right: 117px;
+  }
 
-.menu-link {
-  text-decoration: none;
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
-  display: block;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link-studio {
-  color: #404bbf;
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-.link-studio::after {
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  content: "";
-  width: 48px;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #404bbf;
-}
-.contact-menu-info {
-  text-decoration: none;
-  color: #434455;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5; /* 150% */
-  display: block;
-  letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contact-menu-info:hover,
-.contact-menu-info:focus {
-  color: #404bbf;
-}
-.mail {
-  padding-bottom: none;
+  .menu-link {
+    text-decoration: none;
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .link-studio {
+    color: #404bbf;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-menu-info {
+    text-decoration: none;
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    display: block;
+    letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .contact-menu-info:hover,
+  .contact-menu-info:focus {
+    color: #404bbf;
+  }
+  .mail {
+    padding-bottom: none;
+  }
 }
 
 /*=========/Tablet Header Styles=========*/
