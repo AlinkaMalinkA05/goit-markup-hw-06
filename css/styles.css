@@ -444,6 +444,8 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     min-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   /*=========Tablet Header Styles=========*/
@@ -542,6 +544,24 @@ img {
     width: 360px;
   }
   /*=========/Tablet Backdrop Styles=========*/
+  /*=========Tablet Section Principles Styles=========*/
+  .menu-info {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .menu-info-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: start;
+  }
+  .menu-info-item {
+    width: calc((100% - 24px) / 2);
+  }
+  /*=========/Tablet Section Principles Styles=========*/
 }
 /*=========Desktop Header Styles=========*/
 @media screen and (min-width: 1024px) {
@@ -580,6 +600,34 @@ img {
   .send-form-btn:focus {
     background-color: #404bbf;
   }
+  /*=========/Desktop Backdrop Styles=========*/
+  /*=========/Desktop Solution Styles=========*/
+  /*=========/Desktop Solution Styles=========*/
+  .menu-info {
+    flex-wrap: nowrap;
+  }
+  .div-icon {
+    width: 264px;
+    height: 112px;
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    background-color: #f4f4fd;
+    fill: #2e2f42;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+  }
+  .svg.icon {
+    display: flex;
+    width: 64px;
+  }
+  .menu-info-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
+  }
+  .menu-info-prgh {
+    font-weight: 400;
+  }
 }
-
-/*=========/Desktop Backdrop Styles=========*/
