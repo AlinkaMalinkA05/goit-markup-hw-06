@@ -497,10 +497,19 @@ img {
     line-height: 1.07; /* 107.143% */
     letter-spacing: 0.02em;
   }
+  /*=========/Tablet Solution Section Styles=========*/
+  /*=========Tablet Backdrop Styles=========*/
+  .modal {
+    width: 408px;
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .text-modal-window {
+    width: 360px;
+  }
+  /*=========/Tablet Backdrop Styles=========*/
 }
-
-/*=========/Tablet Solution Section Styles=========*/
-
+/*=========Desktop Header Styles=========*/
 @media screen and (min-width: 1024px) {
   .container {
     max-width: 1158px;
@@ -514,8 +523,29 @@ img {
     padding-top: 26px;
     padding-bottom: 26px;
   }
+  /*=========Desktop Backdrop Styles=========*/
+  .privacy-checkbox:checked + .form-checkbox-label > .new-checkbox {
+    background-color: #404bbf;
+    border-color: #404bbf;
+    fill: #f4f4fd;
+  }
+  .privacy-checkbox:focus + .form-checkbox-label > .new-checkbox {
+    border: none;
+  }
+  .modal-form-input:focus {
+    border-color: #4d5ae5;
+  }
+  .privacy-checkbox:checked + .form-checkbox-label .checkbox-icon {
+    opacity: 1;
+  }
+  .modal-form-input:focus + .form-icon {
+    fill: #4d5ae5;
+    stroke: #4d5ae5;
+  }
+  .send-form-btn:hover,
+  .send-form-btn:focus {
+    background-color: #404bbf;
+  }
 }
 
-/*=========Desktop Header Styles=========*/
-
-/*=========/Desktop Header Styles=========*/
+/*=========/Desktop Backdrop Styles=========*/
