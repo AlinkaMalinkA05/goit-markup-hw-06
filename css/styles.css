@@ -411,8 +411,8 @@ img {
 }
 .text-info {
   background-color: #ffffff;
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .menu-info-title {
   color: #2e2f42;
@@ -422,7 +422,6 @@ img {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02;
   text-transform: capitalize;
-  margin-bottom: 8px;
 }
 .menu-info-prgh {
   color: #434455;
@@ -433,7 +432,6 @@ img {
 }
 .menu-info-item {
   display: block;
-  margin-bottom: 72px;
 }
 /*=========/Mobile Section Principles Styles=========*/
 /*=========/Mobile Section OUR TEAM Styles=========*/
@@ -442,6 +440,7 @@ img {
 }
 .title-section {
   text-align: center;
+  padding-bottom: 72px;
 }
 .team-container {
   display: block;
@@ -462,7 +461,6 @@ img {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 .social-media-card {
   display: flex;
@@ -613,11 +611,34 @@ img {
     text-transform: capitalize;
     text-align: start;
   }
-  .menu-info-item {
-    width: calc((100% - 24px) / 2);
-  }
+
   /*=========/Tablet Section Principles Styles=========*/
+  /*=========Tablet OUR TEAM Section  Styles=========*/
+  .menu-info {
+    flex-direction: row;
+  }
+
+  .menu-info-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .menu-info-title {
+    text-align: center;
+  }
+
+  .team-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
 }
+
+/*=========/Tablet OUR TEAM Section Styles=========*/
+
 /*=========Desktop Header Styles=========*/
 @media screen and (min-width: 1024px) {
   .container {
@@ -656,8 +677,7 @@ img {
     background-color: #404bbf;
   }
   /*=========/Desktop Backdrop Styles=========*/
-  /*=========/Desktop Solution Styles=========*/
-  /*=========/Desktop Solution Styles=========*/
+  /*=========Desktop Order Section Styles=========*/
   .menu-info {
     flex-wrap: nowrap;
   }
@@ -685,4 +705,18 @@ img {
   .menu-info-prgh {
     font-weight: 400;
   }
+  /*=========Desktop Order Section Styles=========*/
+
+  /*=========Desktop Solution Styles=========*/
+  /*=========/Desktop Solution Styles=========*/
+
+  /*=========Desktop OUR TEAM Section Styles=========*/
+  .section .menu-info-item {
+    width: calc((100% - 24px) / 4);
+    border-radius: 0px 0px 4px 4px;
+  }
+  .menu-info-item {
+    margin-bottom: 120px;
+  }
+  /*=========/Desktop OUR TEAM Section Styles=========*/
 }
