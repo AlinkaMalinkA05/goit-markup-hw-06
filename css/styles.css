@@ -42,9 +42,9 @@ img {
   overflow: hidden;
 }
 .container {
-  max-width: 367px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
   position: relative;
 }
@@ -415,7 +415,6 @@ img {
   background-color: #ffffff;
   padding-top: 48px;
   padding-bottom: 48px;
-  text-transform: capitalize;
 }
 .menu-info-title {
   color: #2e2f42;
@@ -443,9 +442,9 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
-    padding-left: 16px;
-    padding-right: 16px;
+    max-width: 768px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   /*=========Tablet Header Styles=========*/
