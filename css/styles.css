@@ -435,6 +435,10 @@ img {
 }
 /*=========/Mobile Section Principles Styles=========*/
 /*=========/Mobile Section OUR TEAM Styles=========*/
+
+.color-team {
+  background: #f4f4fd;
+}
 .container {
   max-width: 296px;
 }
@@ -493,6 +497,64 @@ img {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 /*=========/Mobile Section OUR TEAM Styles=========*/
+/*=========Mobile Portfolio Section Styles=========*/
+
+.text-info-app {
+  padding: 96px 0;
+}
+.text-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  justify-content: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
+}
+.menu-info-app-img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 32px;
+}
+.portfolio-container {
+  display: block;
+  row-gap: 24px;
+  padding: 32px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
+}
+.text-overlay {
+  display: none;
+}
+.menu-info-app-item {
+  display: flex;
+}
+.menu-info-app {
+  background-color: #ffffff;
+  display: flex;
+  margin-top: 72px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-container {
+  padding-bottom: 32px;
+}
+.menu-info-app-prgh {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+/*=========/Mobile  Portfolio Section Styles=========*/
+/*=========/Mobile  Footer  Styles=========*/
+/*=========/Mobile  Footer Section  Styles=========*/
 
 @media screen and (min-width: 768px) {
   .container {
@@ -614,6 +676,9 @@ img {
 
   /*=========/Tablet Section Principles Styles=========*/
   /*=========Tablet OUR TEAM Section  Styles=========*/
+  .text-info {
+    padding: 96px 0;
+  }
   .menu-info {
     flex-direction: row;
   }
@@ -635,9 +700,11 @@ img {
     align-items: center;
     gap: 8px;
   }
-}
+  /*=========/Tablet OUR TEAM Section Styles=========*/
+  /*=========Tablet Portfolio Section Styles=========*/
 
-/*=========/Tablet OUR TEAM Section Styles=========*/
+  /*=========/Tablet Portfolio Section Styles=========*/
+}
 
 /*=========Desktop Header Styles=========*/
 @media screen and (min-width: 1024px) {
@@ -705,12 +772,31 @@ img {
   .menu-info-prgh {
     font-weight: 400;
   }
-  /*=========Desktop Order Section Styles=========*/
-
   /*=========Desktop Solution Styles=========*/
+  .solutions-section {
+    background: #2e2f42;
+    padding: 188px 0;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(..//images/bg_1section/bg_section_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .order-btn:hover,
+  .order-btn:focus {
+    background: #404bbf;
+  }
   /*=========/Desktop Solution Styles=========*/
-
   /*=========Desktop OUR TEAM Section Styles=========*/
+  .text-info {
+    padding: 120px 0;
+  }
   .section .menu-info-item {
     width: calc((100% - 24px) / 4);
     border-radius: 0px 0px 4px 4px;
@@ -719,4 +805,7 @@ img {
     margin-bottom: 120px;
   }
   /*=========/Desktop OUR TEAM Section Styles=========*/
+  /*=========Desktop Portfolio Section Styles=========*/
+
+  /*=========/Desktop Portfolio Section Styles=========*/
 }
