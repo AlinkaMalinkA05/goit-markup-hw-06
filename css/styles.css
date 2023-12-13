@@ -531,9 +531,6 @@ img {
 .text-overlay {
   display: none;
 }
-.menu-info-app-item {
-  display: flex;
-}
 .menu-info-app {
   background-color: #ffffff;
   display: flex;
@@ -553,8 +550,138 @@ img {
   letter-spacing: 0.02em;
 }
 /*=========/Mobile  Portfolio Section Styles=========*/
+/*=========Mobile  Footer  Styles=========*/
+.main-footer {
+  max-width: 468px;
+  background: #2e2f42;
+  padding: 100px 0;
+}
+.container-footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-text {
+  color: #f4f4fd;
+  width: 288px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  padding-bottom: 72px;
+}
+.logo-footer {
+  color: #f4f4fd;
+  line-height: 1.17;
+  display: inline-block;
+}
+.logotype-footer {
+  width: 116px;
+  margin-bottom: 16px;
+}
+.container-footer-links {
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer-links-text {
+  display: block;
+  width: 96px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.menu-info-social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info-container {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.cards-footer {
+  gap: 16px;
+  margin-bottom: 72px;
+}
+
+.email {
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+}
+::placeholder {
+  color: #ffffff;
+}
+
+.text-form {
+  width: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.email-form {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.subscribe {
+  max-width: 288px;
+}
+.form-btn {
+  display: flex;
+  border-radius: 4px;
+  background: #4d5ae5;
+  min-width: 165px;
+  height: 40px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+}
+.form-btn-icon {
+  margin-left: 16px;
+  fill: #fff;
+}
+.form-btn:hover,
+.form-btn:focus {
+  background-color: #404bbf;
+}
 /*=========/Mobile  Footer  Styles=========*/
-/*=========/Mobile  Footer Section  Styles=========*/
 
 @media screen and (min-width: 768px) {
   .container {
@@ -702,7 +829,9 @@ img {
   }
   /*=========/Tablet OUR TEAM Section Styles=========*/
   /*=========Tablet Portfolio Section Styles=========*/
-
+  .menu-info-app-item {
+    width: calc((100% - 72px) / 2);
+  }
   /*=========/Tablet Portfolio Section Styles=========*/
 }
 
@@ -745,8 +874,17 @@ img {
   }
   /*=========/Desktop Backdrop Styles=========*/
   /*=========Desktop Order Section Styles=========*/
+  .text-info {
+    background-color: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .menu-info {
     flex-wrap: nowrap;
+  }
+  .menu-info {
+    display: flex;
+    gap: 24px;
   }
   .div-icon {
     width: 264px;
@@ -772,6 +910,7 @@ img {
   .menu-info-prgh {
     font-weight: 400;
   }
+
   /*=========Desktop Solution Styles=========*/
   .solutions-section {
     background: #2e2f42;
@@ -787,6 +926,27 @@ img {
     background-position: center;
     max-width: 1440px;
     margin: 0 auto;
+  }
+  .order-btn {
+    color: #ffffff;
+    background: #4d5ae5;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.04em;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .order-btn:hover,
   .order-btn:focus {
@@ -806,6 +966,8 @@ img {
   }
   /*=========/Desktop OUR TEAM Section Styles=========*/
   /*=========Desktop Portfolio Section Styles=========*/
-
+  .menu-info-app-item {
+    width: calc((100% - 72px) / 3);
+  }
   /*=========/Desktop Portfolio Section Styles=========*/
 }
