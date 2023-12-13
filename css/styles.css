@@ -552,13 +552,15 @@ img {
 /*=========/Mobile  Portfolio Section Styles=========*/
 /*=========Mobile  Footer  Styles=========*/
 .main-footer {
-  max-width: 468px;
   background: #2e2f42;
   padding: 100px 0;
 }
 .container-footer {
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .footer-text {
   color: #f4f4fd;
@@ -831,10 +833,34 @@ img {
     width: calc((100% - 72px) / 2);
   }
   /*=========/Tablet Portfolio Section Styles=========*/
+  /*=========Tablet Footer Section Styles=========*/
+  .footer-info-container {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    margin: 0 auto;
+  }
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribe {
+    max-width: none;
+  }
+  .text-form {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 /*=========Desktop Header Styles=========*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
   }
@@ -846,6 +872,17 @@ img {
   .logotype-header {
     padding-top: 26px;
     padding-bottom: 26px;
+  }
+  .menu-link:hover,
+  .menu-link:focus {
+    color: #404bbf;
+  }
+  .menu-link-studio:active {
+    color: #404bbf;
+  }
+  .contact-menu-info:hover,
+  .contact-menu-info:focus {
+    color: #404bbf;
   }
   /*=========Desktop Backdrop Styles=========*/
   .privacy-checkbox:checked + .form-checkbox-label > .new-checkbox {
@@ -870,6 +907,7 @@ img {
   .send-form-btn:focus {
     background-color: #404bbf;
   }
+
   /*=========/Desktop Backdrop Styles=========*/
   /*=========Desktop Order Section Styles=========*/
   .text-info {
@@ -968,4 +1006,12 @@ img {
     width: calc((100% - 72px) / 3);
   }
   /*=========/Desktop Portfolio Section Styles=========*/
+  /*=========Desktop Footer Section Styles=========*/
+  .footer-info-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  /*=========/Desktop Footer Section Styles=========*/
 }
