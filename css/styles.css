@@ -207,9 +207,35 @@ img {
 /*=========/Mobile Header Styles=========*/
 /*=========Mobile Order Section Styles=========*/
 .solutions-section {
-  background: var(--GREY, rgba(46, 47, 66, 0.7));
+  background: rgba(46, 47, 66, 0.7);
   padding-bottom: 72px;
   margin-bottom: 48px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(..//images/bg_1section/Mobile_Dark-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .solutions-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(..//images/bg_1section/Mobile_Dark_bg@2x.jpg);
+  }
+}
+
+.order-container {
+  display: flex;
+  flex-direction: column;
 }
 .main-title {
   width: 288px;
