@@ -87,6 +87,8 @@ img {
 
 .link-studio {
   color: #404bbf;
+  display: block;
+  padding: 24px 0;
 }
 
 .mobile-address-links {
@@ -743,6 +745,12 @@ img {
     position: relative;
     display: flex;
     align-items: center;
+  }
+  .contact-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 13px;
   }
 
   .contact-menu-info {
