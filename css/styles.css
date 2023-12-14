@@ -799,6 +799,26 @@ img {
   }
   /*=========/Tablet Header Styles=========*/
   /*=========Tablet Solution Section Styles=========*/
+  .solutions-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(..//images/bg_1section/Tablet_Dark_bg.jpg);
+  }
+  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .solutions-section {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(..//images/bg_1section/Tablet_Dark_bg@2x.jpg);
+    }
+  }
   .main-title {
     width: 496px;
     margin: 0 auto;
@@ -818,6 +838,9 @@ img {
   }
   .text-modal-window {
     width: 360px;
+  }
+  .comment::placeholder {
+    color: rgba(46, 47, 66, 0.4);
   }
   /*=========/Tablet Backdrop Styles=========*/
   /*=========Tablet Section Principles Styles=========*/
@@ -941,9 +964,36 @@ img {
   .send-form-btn:focus {
     background-color: #404bbf;
   }
+  .modal-form-input:focus {
+    border-color: #4d5ae5;
+  }
+  .modal-form-input:focus + .form-icon {
+    fill: #4d5ae5;
+    stroke: #4d5ae5;
+  }
 
   /*=========/Desktop Backdrop Styles=========*/
   /*=========Desktop Order Section Styles=========*/
+  .solutions-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(..//images/bg_1section/Desktop_people_office.jpg);
+  }
+  @media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+    screen and (min-resolution: 2dppx) and (min-width: 1158px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+    .solutions-section {
+      background-image: linear-gradient(
+          to bottom,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(..//images/bg_1section/Desktop_people_office@2x.jpg);
+    }
+  }
   .text-info {
     background-color: #ffffff;
     padding-top: 120px;
