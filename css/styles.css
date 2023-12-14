@@ -209,7 +209,6 @@ img {
 .solutions-section {
   background: rgba(46, 47, 66, 0.7);
   padding-bottom: 72px;
-  margin-bottom: 48px;
   background-image: linear-gradient(
       to bottom,
       rgba(46, 47, 66, 0.7),
@@ -975,6 +974,8 @@ img {
   /*=========/Desktop Backdrop Styles=========*/
   /*=========Desktop Order Section Styles=========*/
   .solutions-section {
+    width: 1440px;
+    height: 600px;
     background-image: linear-gradient(
         to bottom,
         rgba(46, 47, 66, 0.7),
@@ -993,6 +994,9 @@ img {
         ),
         url(..//images/bg_1section/Desktop_people_office@2x.jpg);
     }
+  }
+  .order-container {
+    padding-top: 188px;
   }
   .text-info {
     background-color: #ffffff;
@@ -1032,21 +1036,7 @@ img {
   }
 
   /*=========Desktop Solution Styles=========*/
-  .solutions-section {
-    background: #2e2f42;
-    padding: 188px 0;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(..//images/bg_1section/bg_section_1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+
   .order-btn {
     color: #ffffff;
     background: #4d5ae5;
