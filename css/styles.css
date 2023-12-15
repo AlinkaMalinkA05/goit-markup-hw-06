@@ -90,7 +90,6 @@ img {
 }
 
 .mobile-address-links {
-  font-style: normal;
   color: #4d5ae5;
   font-size: 20px;
   font-weight: 500;
@@ -106,6 +105,7 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 40px;
+  padding-bottom: 40px;
 }
 .mobile-info-smc {
   display: flex;
@@ -218,7 +218,6 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: 72px;
 }
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
@@ -442,19 +441,6 @@ img {
   padding-top: 96px;
   padding-bottom: 96px;
 }
-.mobile-title {
-  color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.11; /* 111.111% */
-  letter-spacing: 0.02em;
-}
-.menu-info {
-  flex-wrap: wrap;
-}
-
 .menu-info-title {
   color: #2e2f42;
   text-align: center;
@@ -480,7 +466,9 @@ img {
 .color-team {
   background: #f4f4fd;
 }
-
+.container {
+  max-width: 296px;
+}
 .title-section {
   text-align: center;
   padding-bottom: 72px;
@@ -498,7 +486,7 @@ img {
   justify-content: center;
   align-items: center;
 }
-.menu-team-title {
+.menu-info-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -889,64 +877,72 @@ img {
     gap: 24px;
     flex-wrap: wrap;
   }
-}
+  .menu-info-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: start;
+  }
 
-/*=========/Tablet Section Principles Styles=========*/
-/*=========Tablet OUR TEAM Section  Styles=========*/
-.text-info {
-  padding: 96px 0;
-}
-.menu-info {
-  flex-direction: row;
-}
+  /*=========/Tablet Section Principles Styles=========*/
+  /*=========Tablet OUR TEAM Section  Styles=========*/
+  .text-info {
+    padding: 96px 0;
+  }
+  .menu-info {
+    flex-direction: row;
+  }
 
-.menu-info-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.menu-info-title {
-  text-align: center;
-}
+  .menu-info-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .menu-info-title {
+    text-align: center;
+  }
 
-.team-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-}
+  .team-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
 
-/*=========/Tablet OUR TEAM Section Styles=========*/
-/*=========Tablet Portfolio Section Styles=========*/
-.menu-info-app-item {
-  width: calc((100% - 72px) / 2);
-}
-/*=========/Tablet Portfolio Section Styles=========*/
-/*=========Tablet Footer Section Styles=========*/
-.footer-info-container {
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 72px 24px;
-  margin: 0 auto;
-}
-.container-footer {
-  display: flex;
-  flex-direction: column;
-}
-.container-footer-links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.subscribe {
-  max-width: none;
-}
-.text-form {
-  margin-left: 0;
-  margin-right: 0;
+  /*=========/Tablet OUR TEAM Section Styles=========*/
+  /*=========Tablet Portfolio Section Styles=========*/
+  .menu-info-app-item {
+    width: calc((100% - 72px) / 2);
+  }
+  /*=========/Tablet Portfolio Section Styles=========*/
+  /*=========Tablet Footer Section Styles=========*/
+  .footer-info-container {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    margin: 0 auto;
+  }
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribe {
+    max-width: none;
+  }
+  .text-form {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 /*=========Desktop Header Styles=========*/
@@ -1048,15 +1044,6 @@ img {
     display: flex;
     gap: 24px;
   }
-  .menu-info-title {
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11; /* 111.111% */
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    text-align: start;
-  }
-
   .div-icon {
     width: 264px;
     height: 112px;
