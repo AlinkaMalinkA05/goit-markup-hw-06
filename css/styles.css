@@ -496,7 +496,7 @@ img {
   padding: 32px 0;
   border-top: none;
 }
-.menu-info {
+.menu-info-team {
   display: flex;
   flex-direction: column;
   gap: 72px;
@@ -816,6 +816,7 @@ img {
   }
   /*=========/Tablet Header Styles=========*/
   /*=========Tablet Solution Section Styles=========*/
+
   .solutions-section {
     padding-top: 112px;
     padding-bottom: 112px;
@@ -838,8 +839,14 @@ img {
         url(..//images/bg_1section/Tablet_Dark_bg@2x.jpg);
     }
   }
+  .menu-principles {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+
   .main-title {
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
     text-align: center;
   }
@@ -912,7 +919,12 @@ img {
 .menu-info-title {
   text-align: center;
 }
-
+.menu-info-team {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .team-container {
   display: flex;
   flex-direction: column;
