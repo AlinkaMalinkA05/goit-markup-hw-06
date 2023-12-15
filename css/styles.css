@@ -579,7 +579,6 @@ img {
 .menu-info-app {
   background-color: #ffffff;
   display: flex;
-  margin-top: 72px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
@@ -943,6 +942,10 @@ img {
 .menu-info-app-item {
   width: calc((100% - 72px) / 2);
 }
+.text-title {
+  padding-bottom: 72px;
+}
+
 /*=========/Tablet Portfolio Section Styles=========*/
 /*=========Tablet Footer Section Styles=========*/
 .footer-info-container {
@@ -950,7 +953,6 @@ img {
   align-items: baseline;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 72px 24px;
   margin: 0 auto;
 }
 .container-footer {
