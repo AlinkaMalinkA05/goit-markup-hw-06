@@ -946,7 +946,8 @@ img {
 /*=========/Tablet Portfolio Section Styles=========*/
 /*=========Tablet Footer Section Styles=========*/
 .footer-info-container {
-  align-items: center;
+  width: 584px;
+  align-items: baseline;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 72px 24px;
@@ -966,7 +967,6 @@ img {
 }
 .text-form {
   margin-left: 0;
-  margin-right: 0;
 }
 
 /*=========Desktop Header Styles=========*/
