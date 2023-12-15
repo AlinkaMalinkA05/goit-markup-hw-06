@@ -87,8 +87,6 @@ img {
 
 .link-studio {
   color: #404bbf;
-  display: block;
-  padding: 24px 0;
 }
 
 .mobile-address-links {
@@ -107,6 +105,7 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 40px;
+  padding-bottom: 40px;
 }
 .mobile-info-smc {
   display: flex;
@@ -172,6 +171,7 @@ img {
   stroke: rgba(0, 0, 0, 0.1);
 }
 .mobile-open-window-container {
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   padding-top: 72px;
@@ -736,6 +736,10 @@ img {
     border-radius: 2px;
     background-color: #404bbf;
     position: absolute;
+  }
+  .link-studio {
+    display: block;
+    padding: 24px 0;
   }
   .contact-info {
     font-style: normal;
