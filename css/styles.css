@@ -559,7 +559,6 @@ img {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 72px;
 }
 .menu-info-app-img {
   max-width: 100%;
@@ -933,6 +932,10 @@ img {
   align-items: center;
   gap: 8px;
 }
+.menu-info-prgh {
+  font-weight: 400;
+}
+.
 
 /*=========/Tablet OUR TEAM Section Styles=========*/
 /*=========Tablet Portfolio Section Styles=========*/
