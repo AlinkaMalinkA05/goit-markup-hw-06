@@ -479,6 +479,7 @@ img {
 .menu-info-item {
   display: block;
 }
+
 /*=========/Mobile Section Principles Styles=========*/
 /*=========/Mobile Section OUR TEAM Styles=========*/
 
@@ -499,9 +500,9 @@ img {
 .menu-info-team {
   display: flex;
   flex-direction: column;
-  gap: 72px;
   justify-content: center;
   align-items: center;
+  gap: 72px;
 }
 .menu-team-title {
   color: #2e2f42;
@@ -543,6 +544,10 @@ img {
 .menu-info-app-title {
   padding-bottom: 8px;
 }
+.menu-info-title {
+  padding-bottom: 8px;
+}
+
 /*=========/Mobile Section OUR TEAM Styles=========*/
 /*=========Mobile Portfolio Section Styles=========*/
 .text-overlay {
@@ -734,7 +739,6 @@ img {
     padding-left: 15px;
     padding-right: 15px;
   }
-
   /*=========Tablet Header Styles=========*/
 
   .mobile-modal-menu-wrapper {
@@ -898,75 +902,75 @@ img {
     gap: 24px;
     flex-wrap: wrap;
   }
-}
+  /*=========/Tablet Section Principles Styles=========*/
+  /*=========Tablet OUR TEAM Section  Styles=========*/
+  .text-info {
+    padding: 96px 0;
+  }
+  .menu-info {
+    flex-direction: row;
+  }
 
-/*=========/Tablet Section Principles Styles=========*/
-/*=========Tablet OUR TEAM Section  Styles=========*/
-.text-info {
-  padding: 96px 0;
-}
-.menu-info {
-  flex-direction: row;
-}
+  .menu-info-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .menu-info-title {
+    text-align: center;
+  }
+  .menu-info-team {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+  }
+  .team-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .menu-info-prgh {
+    font-weight: 400;
+  }
 
-.menu-info-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.menu-info-title {
-  text-align: center;
-}
-.menu-info-team {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.team-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-}
-.menu-info-prgh {
-  font-weight: 400;
-}
+  /*=========/Tablet OUR TEAM Section Styles=========*/
+  /*=========Tablet Portfolio Section Styles=========*/
+  .menu-team {
+    width: calc((100% - 24px) / 2);
+  }
+  .text-title {
+    padding-bottom: 72px;
+  }
 
-/*=========/Tablet OUR TEAM Section Styles=========*/
-/*=========Tablet Portfolio Section Styles=========*/
-.menu-info-item {
-  width: calc((100% - 24px) / 2);
-}
-.text-title {
-  padding-bottom: 72px;
-}
-
-/*=========/Tablet Portfolio Section Styles=========*/
-/*=========Tablet Footer Section Styles=========*/
-.footer-info-container {
-  width: 584px;
-  align-items: baseline;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 0 auto;
-}
-.container-footer {
-  display: flex;
-  flex-direction: column;
-}
-.container-footer-links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.subscribe {
-  max-width: none;
-}
-.text-form {
-  margin-left: 0;
+  /*=========/Tablet Portfolio Section Styles=========*/
+  /*=========Tablet Footer Section Styles=========*/
+  .footer-info-container {
+    width: 584px;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribe {
+    max-width: none;
+  }
+  .text-form {
+    margin-left: 0;
+  }
 }
 
 /*=========Desktop Header Styles=========*/
@@ -1054,7 +1058,9 @@ img {
         url(..//images/bg_1section/Desktop_people_office@2x.jpg);
     }
   }
-
+  .menu-principles {
+    flex-wrap: nowrap;
+  }
   .text-info {
     background-color: #ffffff;
     padding-top: 120px;
@@ -1187,6 +1193,9 @@ img {
   .menu-info-social-icon:hover,
   .menu-info-social-icon:focus {
     background-color: #404bbf;
+  }
+  .menu-info-team {
+    width: 100%;
   }
 
   /*=========/Desktop OUR TEAM Section Styles=========*/
