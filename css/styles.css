@@ -1038,7 +1038,6 @@ img {
   /*=========/Desktop Backdrop Styles=========*/
   /*=========Desktop Order Section Styles=========*/
   .solutions-section {
-    margin: 0 auto;
     padding-top: 188px;
     padding-bottom: 188px;
     width: 1440px;
@@ -1060,6 +1059,9 @@ img {
         ),
         url(..//images/bg_1section/Desktop_people_office@2x.jpg);
     }
+  }
+  .container {
+    margin: 0 auto;
   }
   .menu-principles {
     flex-wrap: nowrap;
