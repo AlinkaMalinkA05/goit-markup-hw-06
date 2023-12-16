@@ -632,6 +632,7 @@ img {
 .container-footer-links {
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 72px;
 }
 .footer-links-text {
   display: flex;
@@ -720,6 +721,7 @@ img {
   align-items: center;
   cursor: pointer;
   border: none;
+  gap: 16px;
 }
 .form-btn-icon {
   margin-left: 16px;
@@ -1239,6 +1241,7 @@ img {
   /*=========/Desktop Portfolio Section Styles=========*/
   /*=========Desktop Footer Section Styles=========*/
   .footer-info-container {
+    width: 1158px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -1247,6 +1250,12 @@ img {
   .footer-icon:hover,
   .footer-icon:focus {
     background-color: #31d0aa;
+  }
+  .container-footer {
+    align-items: flex-start;
+  }
+  .container-footer-links {
+    align-items: flex-start;
   }
 
   /*=========/Desktop Footer Section Styles=========*/
