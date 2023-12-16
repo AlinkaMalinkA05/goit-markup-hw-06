@@ -728,6 +728,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
+    max-width: 768;
     margin: 0 auto;
     max-width: 768px;
     padding-left: 15px;
@@ -848,8 +849,6 @@ img {
     max-width: 496px;
     margin: 0 auto;
     text-align: center;
-  }
-  .main-title {
     font-size: 56px;
     line-height: 1.07; /* 107.143% */
     letter-spacing: 0.02em;
@@ -935,12 +934,11 @@ img {
 .menu-info-prgh {
   font-weight: 400;
 }
-.
 
 /*=========/Tablet OUR TEAM Section Styles=========*/
 /*=========Tablet Portfolio Section Styles=========*/
-.menu-info-app-item {
-  width: calc((100% - 72px) / 2);
+.menu-info-item {
+  width: calc((100% - 24px) / 2);
 }
 .text-title {
   padding-bottom: 72px;
