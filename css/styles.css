@@ -1010,6 +1010,12 @@ img {
     display: flex;
     gap: 40px;
     align-items: center;
+    flex-direction: row;
+  }
+  .contact-menu-info {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
   .logotype-header {
     padding-top: 26px;
