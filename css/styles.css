@@ -551,7 +551,13 @@ img {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .menu-info-app-title {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .text-title {
   margin-bottom: 72px;
