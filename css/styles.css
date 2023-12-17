@@ -972,9 +972,6 @@ img {
   .menu-team {
     width: calc((100% - 24px) / 2);
   }
-  .text-title {
-    padding-bottom: 72px;
-  }
 
   /*=========/Tablet Portfolio Section Styles=========*/
   /*=========Tablet Footer Section Styles=========*/
@@ -1308,6 +1305,10 @@ img {
   }
   .container-footer-links {
     align-items: flex-start;
+    margin-bottom: 0;
+  }
+  .footer-text {
+    margin-bottom: 0;
   }
 
   /*=========/Desktop Footer Section Styles=========*/
