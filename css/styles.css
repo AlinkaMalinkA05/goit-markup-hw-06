@@ -920,6 +920,7 @@ img {
   }
   /*=========/Tablet Section Principles Styles=========*/
   /*=========Tablet OUR TEAM Section  Styles=========*/
+
   .text-info {
     padding: 96px 0;
   }
@@ -952,6 +953,9 @@ img {
   }
   .menu-info-prgh {
     font-weight: 400;
+  }
+  .menu-team-title {
+    margin-bottom: 0;
   }
 
   /*=========/Tablet OUR TEAM Section Styles=========*/
