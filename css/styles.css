@@ -1150,7 +1150,9 @@ img {
   }
 
   /*=========Desktop Solution Styles=========*/
-
+  .main-title {
+    margin-bottom: 48px;
+  }
   .order-btn {
     color: #ffffff;
     background: #4d5ae5;
