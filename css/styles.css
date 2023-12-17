@@ -562,7 +562,7 @@ img {
 
 /*=========/Mobile Section OUR TEAM Styles=========*/
 /*=========Mobile Portfolio Section Styles=========*/
-.text-overlay {
+.overlay p {
   display: none;
 }
 .text-info-app {
@@ -1180,7 +1180,11 @@ img {
   }
   /*=========/Desktop Solution Styles=========*/
   /*=========Desktop OUR TEAM Section Styles=========*/
+  .color-team {
+    background: #f4f4fd;
+  }
   .overlay {
+    display: flex;
     position: relative;
     overflow: hidden;
   }
@@ -1192,6 +1196,7 @@ img {
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
   .overlay p {
+    display: flex;
     position: absolute;
     top: 0;
     left: 0;
@@ -1219,9 +1224,7 @@ img {
     width: calc((100% - 24px) / 4);
     border-radius: 0px 0px 4px 4px;
   }
-  .menu-info-item {
-    margin-bottom: 120px;
-  }
+
   .menu-info-social-icon {
     display: flex;
     background-color: #4d5ae5;
