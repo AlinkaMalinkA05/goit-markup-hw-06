@@ -139,7 +139,6 @@ img {
   line-height: 0;
 }
 .mobile-modal-menu-wrapper {
-  display: flex;
   position: fixed;
   top: 0;
   left: 0;
@@ -175,6 +174,7 @@ img {
 }
 
 .mobile-open-window-container {
+  height: 100%;
   display: flex;
   flex-direction: column;
   padding-top: 72px;
@@ -188,7 +188,7 @@ img {
   margin-bottom: 48px;
 }
 .mobile-address-info:not(:last-child) {
-  padding-bottom: 24px;
+  margin-bottom: 24px;
 }
 @media screen and (max-width: 767px) {
   .page-header {
@@ -293,7 +293,7 @@ img {
 }
 .modal {
   width: 288px;
-  min-height: 623px;
+  height: auto;
   border-radius: 4px;
   background: #fcfcfc;
   position: absolute;
@@ -884,8 +884,6 @@ img {
   /*=========Tablet Backdrop Styles=========*/
   .modal {
     width: 408px;
-    padding-left: auto;
-    padding-right: auto;
   }
   .text-modal-window {
     width: 360px;
