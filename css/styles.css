@@ -84,12 +84,6 @@ img {
   color: #2e2f42;
 }
 
-.link-studio {
-  color: #404bbf;
-  display: block;
-  padding: 24px 0;
-}
-
 .mobile-address-links {
   font-style: normal;
   color: #4d5ae5;
@@ -127,6 +121,11 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+.link-studio {
+  color: #404bbf;
+  display: block;
+}
+
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   margin: 0 auto;
@@ -167,7 +166,7 @@ img {
   right: 24px;
   border-radius: 50%;
   background-color: transparent;
-  border-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   line-height: 0;
   stroke: rgba(0, 0, 0, 0.1);
@@ -764,6 +763,10 @@ img {
   .mobile-burger-button {
     display: none;
   }
+  .link-studio {
+    padding: 24px 0;
+  }
+
   .link-studio::after {
     display: block;
     left: 0;
