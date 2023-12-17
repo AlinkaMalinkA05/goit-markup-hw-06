@@ -791,7 +791,7 @@ img {
     align-items: center;
   }
   .logotype-header {
-    margin-right: 117px;
+    margin-right: 76px;
   }
 
   .menu-link {
@@ -814,18 +814,19 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    flex-direction: column;
     gap: 13px;
   }
 
   .contact-menu-info {
     text-decoration: none;
     color: #434455;
-    font-size: 16px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5; /* 150% */
+    line-height: 1.17;
     display: block;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.04em;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .contact-menu-info:hover,
@@ -915,7 +916,7 @@ img {
   /*=========Tablet Section Principles Styles=========*/
   .menu-principles {
     display: flex;
-    gap: 24px;
+    column-gap: 24px;
     flex-wrap: wrap;
   }
   /*=========/Tablet Section Principles Styles=========*/
