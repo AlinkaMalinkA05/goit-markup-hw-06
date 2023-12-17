@@ -871,11 +871,13 @@ img {
   }
   .main-title {
     max-width: 496px;
-    margin: 0 auto;
     text-align: center;
     font-size: 56px;
     line-height: 1.07; /* 107.143% */
     letter-spacing: 0.02em;
+    margin-bottom: 36px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   /*=========/Tablet Solution Section Styles=========*/
   /*=========Tablet Backdrop Styles=========*/
