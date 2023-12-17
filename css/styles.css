@@ -750,7 +750,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768;
+    max-width: 768px;
     margin: 0 auto;
     max-width: 768px;
     padding-left: 15px;
@@ -1291,6 +1291,7 @@ img {
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: stretch;
+    justify-content: space-between;
   }
   .footer-icon:hover,
   .footer-icon:focus {
