@@ -218,7 +218,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0;
+  margin: 0 auto;
 }
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
@@ -1073,8 +1073,6 @@ img {
   /*=========/Desktop Backdrop Styles=========*/
   /*=========Desktop Order Section Styles=========*/
   .solutions-section {
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 188px;
     padding-bottom: 188px;
     width: 1440px;
