@@ -220,7 +220,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 72px;
-  margin: 0 auto;
+  margin: 0;
 }
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
