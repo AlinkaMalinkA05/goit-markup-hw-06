@@ -1095,9 +1095,6 @@ img {
         url(..//images/bg_1section/Desktop_people_office@2x.jpg);
     }
   }
-  .container {
-    margin: 0 auto;
-  }
   .menu-principles {
     flex-wrap: nowrap;
   }
