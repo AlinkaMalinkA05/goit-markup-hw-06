@@ -219,7 +219,6 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 72px;
   margin: 0;
 }
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
@@ -557,6 +556,9 @@ img {
 .menu-info-app-title {
   padding-bottom: 8px;
 }
+.text-title {
+  padding-bottom: 72px;
+}
 
 /*=========/Mobile Section OUR TEAM Styles=========*/
 /*=========Mobile Portfolio Section Styles=========*/
@@ -711,6 +713,9 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.cocial-icon-footer {
+  fill: #f4f4fd;
 }
 .form-btn {
   display: flex;
